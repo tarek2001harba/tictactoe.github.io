@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="game">
+        <header>
+            <h1 class="gameName">Tic Tac Toe</h1>
+        </header>
+        <div class="container">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+    <div class="gameInfo unselectable">
+        <div>
+            <div class="playerTypes"><h1>X - O</h1></div>
+            <div class="playerScores"><h1><span class="score">0</span> - <span class="score">0</span></h1></div>
+        </div>
+        <div class="buttons"><button id="reset">Reset</button></div>
+    </div>
+    <div class="modalContainer">
+        <div class="modal">
+            <div class="title">
+                <h1></h1>
+            </div>
+            <div class="options unselectable">
+                <div class="option">
+                    <img name='single' src="" alt="">
+                    <h2></h2>
+                </div>
+                <div class="option">
+                    <img name='multi' src="" alt="">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./anime.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
